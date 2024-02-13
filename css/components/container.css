@@ -1,0 +1,14 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.profiles-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.title-container {
+  margin-top: 5rem;
+}
