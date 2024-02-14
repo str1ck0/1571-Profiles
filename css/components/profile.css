@@ -5,9 +5,21 @@
   border: 3px solid rgb(44, 116, 218);
   padding: 5px;
   margin: 0 1rem;
+  transition: 0.3s ease-in-out
 }
 
 .profile-img:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+  scale: 1.1;
+}
+
+p {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bolder;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+img:hover + p {
+  opacity: 1;
 }
